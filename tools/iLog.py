@@ -17,6 +17,9 @@ class ilog:
         # add the handlers to the logger
         self.logger.addHandler(fh)
         self.logger.addHandler(ch)
+
+
+
     def get_logger(self):
         return self.logger
 

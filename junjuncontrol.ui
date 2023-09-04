@@ -39,9 +39,12 @@
             </widget>
            </item>
            <item>
-            <widget class="QRadioButton" name="radioButton_3">
+            <widget class="QRadioButton" name="viewMute">
              <property name="text">
               <string>静音</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
              </property>
              <property name="autoExclusive">
               <bool>false</bool>
@@ -113,9 +116,12 @@
             </widget>
            </item>
            <item>
-            <widget class="QRadioButton" name="radioButton_2">
+            <widget class="QRadioButton" name="broadMute">
              <property name="text">
               <string>静音</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
              </property>
              <property name="autoExclusive">
               <bool>false</bool>
